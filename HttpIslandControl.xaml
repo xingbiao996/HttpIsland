@@ -1,0 +1,23 @@
+﻿<ci:ComponentBase
+    x:Class="HttpIsland.HttpIslandControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ci="http://classisland.tech/schemas/xaml/core">
+    <Grid>
+        <TextBlock x:Name="HttpIslandText"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            FontSize="{DynamicResource MainWindowLargeFontSize}"/>
+    </Grid>
+</ci:ComponentBase>
+    
+<ci:ComponentBase
+    x:Class="HttpIsland.HttpIslandControl"
+    x:TypeArguments="HttpIslandSettingsClass"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ci="http://classisland.tech/schemas/xaml/core">
+    <Grid>
+        
+    </Grid>
+</ci:ComponentBase>
