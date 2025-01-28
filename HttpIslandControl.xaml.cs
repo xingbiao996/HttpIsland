@@ -24,14 +24,6 @@ namespace HttpIsland
             LoadHttpIslandAsync();
         }
 
-        public partial class HttpIsland : ComponentBase<HttpIslandSettingsClass>
-        {
-            public HttpIsland()
-            {
-                InitializeComponent();
-            }
-        }
-
         private async void LoadHttpIslandAsync()
         {
             try
